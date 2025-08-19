@@ -88,13 +88,6 @@ docker compose up --build
 
 ## Architecture (at a glance)
 
-```mermaid
-flowchart LR
-    B[Browser] -->|HTTP :8501| S[Streamlit App<br/>in Docker]
-    S -->|Chat Completions| L[LLM Server<br/>(OpenAI-compatible)]
-    L -->|Assistant Reply| S --> B
-```
-
 - **Streamlit** serves the UI from inside a container.
 - The app calls your configured **OpenAI-compatible** endpoint for chat responses.
 
