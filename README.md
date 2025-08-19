@@ -1,4 +1,6 @@
 # Streamlit LLM Chat (Docker-First, OpenAI-Compatible)
+<img width="864" height="641" alt="image" src="https://github.com/user-attachments/assets/e5035366-2049-40e4-929a-0b9b09121eb8" />
+
 
 A minimal Streamlit chat UI that talks to **any OpenAI-compatible Chat Completions API** (local LLM servers such as llama.cpp/Ollama proxies or hosted providers).  
 This project is **Docker-first** — you build and run the app in a container with a simple `.env` file for configuration.
